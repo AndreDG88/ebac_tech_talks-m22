@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link para as fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- link para o css/sass -->
     <link rel="stylesheet" href="styles/main.scss">
-    <title>Document</title>
+    <title>EBAC Tech Talks</title>
     <!-- configuração do setup do projeto:
     01 - abra o terminal (F1) e execute o "npm init" para criação do package.json
     02 - após, no terminal execute o "npm install --save-dev parcel" para instalação do parcel
@@ -16,8 +20,14 @@
     07 - após, no terminal, execute o comando "npm run dev"-->
 </head>
 <body>
-    <h1>Olá</h1>
-    <img src="./images/backend.png" alt="">
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
+            <P class="hero__text">
+                O maior evento de tecnologia do Brasil começa em 30d 12h 20m 15s
+            </P>
+        </div>
+    </header>
     <!-- link para javascript -->
     <script src="scripts/main.js"></script>
 </body>
