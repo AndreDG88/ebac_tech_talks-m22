@@ -1,5 +1,9 @@
 // links para arquivos externos
 @use 'hero';
+@use 'components/_info_bar';
+@use 'components/_buttons';
+@use 'event';
+@use 'variables';
 
 // configurando o reset
 * {
@@ -7,7 +11,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    color: variables.$textColor;
+    list-style: none;
 }
 
 .container {
